@@ -1,6 +1,6 @@
-# Airbnb React/JSX Style Guide
+# Tyemill React/JSX Style Guide
 
-*A mostly reasonable approach to React and JSX*
+Orginal credit to: https://github.com/airbnb/javascript
 
 This style guide is mostly based on the standards that are currently prevalent in JavaScript, although some conventions (i.e async/await or static class fields) may still be included or prohibited on a case-by-case basis. Currently, anything prior to stage 3 is not included nor recommended in this guide.
 
@@ -218,7 +218,7 @@ This style guide is mostly based on the standards that are currently prevalent i
 
 ## Quotes
 
-  - Always use double quotes (`"`) for JSX attributes, but single quotes (`'`) for all other JS. eslint: [`jsx-quotes`](https://eslint.org/docs/rules/jsx-quotes)
+  ~~- Always use double quotes (`"`) for JSX attributes, but single quotes (`'`) for all other JS. eslint: [`jsx-quotes`](https://eslint.org/docs/rules/jsx-quotes)~~  use consistant quotes like (`"`)
 
     > Why? Regular HTML attributes also typically use double quotes instead of single, so JSX attributes mirror this convention.
 
@@ -631,7 +631,7 @@ We don’t recommend using indexes for keys if the order of items may change.
     }
     ```
 
-## Ordering
+~~## Ordering
 
   - Ordering for `class extends React.Component`:
 
@@ -713,6 +713,7 @@ We don’t recommend using indexes for keys if the order of items may change.
   > Why? [`isMounted` is an anti-pattern][anti-pattern], is not available when using ES6 classes, and is on its way to being officially deprecated.
 
   [anti-pattern]: https://facebook.github.io/react/blog/2015/12/16/ismounted-antipattern.html
+~~
 
 ## Translation
 
