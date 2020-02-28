@@ -631,7 +631,7 @@ We don’t recommend using indexes for keys if the order of items may change.
     }
     ```
 
-~~## Ordering
+<del>## Ordering
 
   - Ordering for `class extends React.Component`:
 
@@ -713,7 +713,7 @@ We don’t recommend using indexes for keys if the order of items may change.
   > Why? [`isMounted` is an anti-pattern][anti-pattern], is not available when using ES6 classes, and is on its way to being officially deprecated.
 
   [anti-pattern]: https://facebook.github.io/react/blog/2015/12/16/ismounted-antipattern.html
-~~
+</del>
 
 ## Translation
 
