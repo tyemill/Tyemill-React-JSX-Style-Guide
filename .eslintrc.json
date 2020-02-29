@@ -1,0 +1,48 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "jest": true
+    },
+    "extends": [
+        "standard",
+        "plugin:react/recommended"
+    ],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "react/display-name": [0],
+        "react/prop-types": [0],
+        "react/no-multi-comp": [1],
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "react/prefer-es6-class": [1],
+        "react/prefer-stateless-function": [1],
+        "react/jsx-pascal-case": [1],
+        "react/jsx-closing-tag-location": [1],
+        "react/jsx-props-no-multi-spaces": [1],
+        "react/jsx-tag-spacing": [1, {
+            "closingSlash": "never",
+            "beforeSelfClosing": "always",
+            "afterOpening": "never",
+            "beforeClosing": "never"
+          }],
+        "react/jsx-curly-spacing": [1],
+        "react/jsx-boolean-value": [1],
+        "react/no-array-index-key": [1],
+        "react/jsx-wrap-multilines": [1],
+        "react/self-closing-comp": [1]
+    }
+}
