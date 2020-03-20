@@ -170,7 +170,6 @@ Orginal credit to: https://github.com/airbnb/javascript
   eslint: [`react/jsx-closing-bracket-location`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-bracket-location.md) [`react/jsx-closing-tag-location`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-tag-location.md)
 
     ```jsx
-
     // if props fit in one line then keep it on the same line
     <Foo bar="bar" />
 
