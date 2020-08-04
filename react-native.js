@@ -6,9 +6,6 @@ module.exports = {
   plugins: [
     'react-native'
   ],
-  overrides: [{
-    files: ['app/**/.js', 'text/**/*.test*']
-  }],
   env: {
     browser: true,
     es6: true,
