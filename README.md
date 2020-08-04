@@ -2,6 +2,35 @@
 
 Orginal credit to: https://github.com/airbnb/javascript
 
+## Usage
+
+1. Add this package to your projects dev dependencies with:
+    ```
+    yarn add git+https://github.com/tyemill/eslint-config-tyemill.git --dev
+    ```
+1. Create `.eslintrc.js` in the root of your project with the following:
+    ```javascript
+    module.exports = {
+      extends: [
+        'tyemill/es6'
+      ]
+    }
+    ```
+    Where `es6` can be one of `es6`, `react` or `react-native` depending on your projects needs. `react-native` extends the configs of `react` and `react` extends the configs of `es6`
+1. Add a command to your `package.json` `scripts` section:
+    ```json
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    ```
+1. run `yarn lint` to output the linter errors to your terminal
+
+
+To update the package you can run
+```bash
+yarn add git+https://github.com/tyemill/eslint-config-tyemill.git --dev --check-files
+```
+to install the latest
+
 ## Table of Contents
 
   1. [Basic Rules](#basic-rules)
