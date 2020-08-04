@@ -6,7 +6,7 @@ Orginal credit to: https://github.com/airbnb/javascript
 
 1. Add this package to your projects dev dependencies with:
     ```
-    yarn add git+ssh://git@github.com/tyemill/eslint-config-tyemill.git --dev
+    yarn add git+https://github.com/tyemill/eslint-config-tyemill.git --dev
     ```
 1. Create `.eslintrc.js` in the root of your project with the following:
     ```javascript
@@ -27,7 +27,7 @@ Orginal credit to: https://github.com/airbnb/javascript
 
 To update the package you can run
 ```bash
-yarn add git+ssh://git@github.com/tyemill/eslint-config-tyemill.git --dev --check-files
+yarn add git+https://github.com/tyemill/eslint-config-tyemill.git --dev --check-files
 ```
 to install the latest
 
